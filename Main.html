@@ -13,13 +13,20 @@
 
 
     <h1 class="CenterMaker" style="font-size:60px;">What to do with Woody</h1>
-    <button class="CenterMaker" onclick="Choice1()"> Fuck him</button><br>
-    <button class="CenterMaker" onclick="Choice2()"> Drop him</button><br>
-    <button class="CenterMaker" onclick="Choice3()"> Take his wallet</button>
+    <button id="Choice1" class="CenterMaker" onclick="Choice1()"> Fuck him</button><br>
+    <button id="Choice2" class="CenterMaker" onclick="Choice2()"> Drop him</button><br>
+    <button id="Choice3" class="CenterMaker" onclick="Choice3()"> Take his wallet</button>
 
 
 
+    <script>
+        function ChangeImage(ButtonId,NewPicture){// Her har vi en funktion der fanger billedets id og ændrer det til et nyt når man har nok af upgraden
+            var image = document.getElementById(ButtonId);//Her fanger vi det billed vi starter med
+            image.src = NewPicture;// Her ændrer vi billedet til det nye
+        }
 
+        
+    </script>
 
 
 </body>
