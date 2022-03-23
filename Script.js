@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Game variables
 var ScenePicture = 0;
 var SceneNumber = 0;
@@ -48,3 +49,6 @@ function Choice3 (ScenePicture) {
     ChangeImage('TestBilled',ScenePicture)
 }
 
+=======
+Hej
+>>>>>>> parent of d651a6b (Prototype basicly done)
