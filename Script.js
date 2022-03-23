@@ -1,15 +1,50 @@
-function Choice1 () {
-    ChangeImage('TestBilled','BuzzLightYearBanging.jpg')
-    alert("Lidt gay du gerne vil kneppe ham")
+//Game variables
+var ScenePicture = 0;
+var SceneNumber = 0;
+
+
+
+
+
+function Scene1 (){
+    ScenePicture = 'BuzzLightYearBaning.jpg'
+
 }
 
-function Choice2 () {
-    ChangeImage('TestBilled','WoodyFalling.jpg')
-    alert("Kæft du grim for at være team buzz lightyear")
+
+
+function Scene2 (){
+
+    
 }
 
-function Choice3 () {
-    ChangeImage('TestBilled','BuzzStealingWallet.jpg')
-    alert("The right choise")
+
+function Scene3 (){
+
+    
+}
+
+
+function Scene4 (){
+
+    
+}
+
+
+
+
+
+
+
+function Choice1 (ScenePicture) {
+    ChangeImage('TestBilled',ScenePicture)
+}
+
+function Choice2 (ScenePicture) {
+    ChangeImage('TestBilled',ScenePicture)
+}
+
+function Choice3 (ScenePicture) {
+    ChangeImage('TestBilled',ScenePicture)
 }
 
