@@ -1,6 +1,12 @@
-.CenterMaker{
+
+.CenterMakerChoice1{
+    position: fixed;
+        top: 100px;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
+
+

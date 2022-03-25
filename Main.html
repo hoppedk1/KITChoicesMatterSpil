@@ -5,17 +5,18 @@
         <title>KitChoisesMatter</title>
         <link rel = "stylesheet" href = "Style.css"/>
 
+
     </head>
 </head>
 <body>
     <script src="Script.js"></script>
-    <img id="TestBilled" width="1000" height="400"src="TestBilled.jpg" class="CenterMaker">
+    
+    <img id="TestBilled" height="500" width="1000" src="TestBilled.jpg" class="CenterMaker">
 
 
-    <h1 class="CenterMaker" style="font-size:60px;">What to do with Woody</h1>
-    <button id="Button1" class="CenterMaker" onclick="Choice1()"> Fuck him</button><br>
-    <button id="Button2" class="CenterMaker" onclick="Choice2()"> Drop him</button><br>
-    <button id="Button3" class="CenterMaker" onclick="Choice3()"> Take his wallet</button>
+    <button id="Button1" class="CenterMakerChoice1" onclick="Choice1()"> Fuck him</button><br>
+    <button id="Button2" class="CenterMakerChoice2" onclick="Choice2()"> Drop him</button><br>
+    <button id="Button3" class="CenterMakerChoice3" onclick="Choice3()"> Take his wallet</button>
 
 
 
@@ -24,6 +25,9 @@
             var image = document.getElementById(ButtonId);//Her fanger vi det billed vi starter med
             image.src = NewPicture;// Her ændrer vi billedet til det nye
         } 
+        canvas = document.getElementById("TestBilled")
+        canvas.width = window.innerWidth-20;
+        canvas.height = window.innerHeight-20;
 
         </script>
 
