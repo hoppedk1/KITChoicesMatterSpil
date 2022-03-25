@@ -11,12 +11,13 @@
 <body>
     <script src="Script.js"></script>
     
-    <img id="TestBilled" height="500" width="1000" src="TestBilled.jpg" class="CenterMaker">
+    <img id="TestBilled"src="TestBilled.jpg" class="CenterMaker">
 
-
-    <button id="Button1" class="CenterMakerChoice1" onclick="Choice1()"> Fuck him</button><br>
-    <button id="Button2" class="CenterMakerChoice2" onclick="Choice2()"> Drop him</button><br>
+    <dialog id="DialogBoks" open>This is an open dialog window</dialog> 
+    <button id="Button1" class="CenterMakerChoice1" onclick="Choice1()"> Fuck him</button>
+    <button id="Button2" class="CenterMakerChoice2" onclick="Choice2()"> Drop him</button>
     <button id="Button3" class="CenterMakerChoice3" onclick="Choice3()"> Take his wallet</button>
+    <button id="Button4" class="CenterMakerChoice4" onclick="Choice3()"> Hvad end nr 4 er</button>
 
 
 
@@ -26,8 +27,8 @@
             image.src = NewPicture;// Her ændrer vi billedet til det nye
         } 
         canvas = document.getElementById("TestBilled")
-        canvas.width = window.innerWidth-20;
-        canvas.height = window.innerHeight-20;
+        canvas.width = window.innerWidth-30;
+        canvas.height = window.innerHeight-60;
 
         </script>
 

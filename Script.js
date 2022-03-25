@@ -12,3 +12,7 @@ function Choice3 () {
     ChangeImage("TestBilled",'BuzzStealingWallet.jpg')
 }
 
+function Choice4 () {
+    ChangeImage("TestBilled",'BuzzStealingWallet.jpg')
+}
+
