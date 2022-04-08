@@ -1,18 +1,9 @@
 //Game variables
 
 function Choice1 () {
-    ChangeImage("TestBilled",'BuzzLightYearBanging.jpg')
+    ChangeImage("OpeningScene",'TakeTheMoney.png')
 }
 
 function Choice2 () {
-    ChangeImage("TestBilled",'WoodyFalling.jpg')
+    ChangeImage("OpeningScene",'ArrestTheFucker.png')
 }
-
-function Choice3 () {
-    ChangeImage("TestBilled",'BuzzStealingWallet.jpg')
-}
-
-function Choice4 () {
-    ChangeImage("TestBilled",'BuzzStealingWallet.jpg')
-}
-

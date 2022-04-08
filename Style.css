@@ -1,3 +1,9 @@
+#OpeningScene{
+    position: fixed;
+    width: 99%;
+    height: 99%;
+}
+
 
 .CenterMakerChoice1{
     position: fixed;
@@ -16,26 +22,10 @@
     width: 40%;
 }
 
-.CenterMakerChoice3{
-    position: fixed;
-        top: 86%;
-        left: 30%;
-
-    width: 40%;
-}
-
-.CenterMakerChoice4{
-    position: fixed;
-        top: 90%;
-        left: 30%;
-
-    width: 40%;
-}
-
 #DialogBoks{
     position: fixed;
         top: 70%;
 
-    opacity: 50%;
+    opacity: 60%;
     width: 40%;
 }
